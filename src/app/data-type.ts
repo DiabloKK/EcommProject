@@ -1,5 +1,10 @@
-export interface SingUp {
+export interface singUp {
     name: string,
     password: string,
     email: string
+}
+
+export interface login {
+    email: String,
+    password: String
 }
