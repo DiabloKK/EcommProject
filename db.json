@@ -1,0 +1,46 @@
+{
+  "seller": [
+    {
+      "name": "Anil Sidhu",
+      "email": "anil@seller.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "San Sidhu",
+      "email": "amseller.com",
+      "password": "abc@123",
+      "id": 2
+    },
+    {
+      "name": "Hoang",
+      "email": "hoang@seller.com",
+      "password": "hoangthaidui",
+      "id": 3
+    },
+    {
+      "name": "Khang",
+      "password": "jjjjjj",
+      "email": "khang.vodai.5",
+      "id": 4
+    },
+    {
+      "name": "Bray",
+      "password": "rapper",
+      "email": "rapper.@seller.com",
+      "id": 5
+    },
+    {
+      "name": "Trái Đất và Hệ Mặt Trờiiiii",
+      "password": "xczcxzc",
+      "email": "asdfdasd",
+      "id": 6
+    },
+    {
+      "name": "sda",
+      "password": "dasdas",
+      "email": "dasdas",
+      "id": 7
+    }
+  ]
+}
