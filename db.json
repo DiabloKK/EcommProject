@@ -47,5 +47,25 @@
       "password": "",
       "id": 8
     }
+  ],
+  "product": [
+    {
+      "name": "samsung m 40",
+      "price": "25000",
+      "category": "mobile",
+      "color": "blue",
+      "description": "a samsung product",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thegioididong.com%2Fdtdd%2Fsamsung-galaxy-m40&psig=AOvVaw0Udbu5VMeF81k1aC6l4Ue0&ust=1680059257911000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCJx8zS_f0CFQAAAAAdAAAAABAE",
+      "id": 1
+    },
+    {
+      "name": "Iphone 14",
+      "price": "100000",
+      "category": "mobile",
+      "color": "black",
+      "description": "An apple product",
+      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcellphones.com.vn%2Fiphone-14-pro-max.html&psig=AOvVaw2Db5x5CYCucO02NmnaAM1N&ust=1680059884672000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDRuPfU_f0CFQAAAAAdAAAAABAE",
+      "id": 2
+    }
   ]
 }
