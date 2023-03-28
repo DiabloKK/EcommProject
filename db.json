@@ -48,14 +48,14 @@
       "id": 8
     }
   ],
-  "product": [
+  "products": [
     {
       "name": "samsung m 40",
       "price": "25000",
       "category": "mobile",
       "color": "blue",
       "description": "a samsung product",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.thegioididong.com%2Fdtdd%2Fsamsung-galaxy-m40&psig=AOvVaw0Udbu5VMeF81k1aC6l4Ue0&ust=1680059257911000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJCJx8zS_f0CFQAAAAAdAAAAABAE",
+      "image": "https://i.pinimg.com/564x/6b/45/a5/6b45a5b94271606c1d6f174acf9a87ab.jpg",
       "id": 1
     },
     {
@@ -64,8 +64,17 @@
       "category": "mobile",
       "color": "black",
       "description": "An apple product",
-      "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fcellphones.com.vn%2Fiphone-14-pro-max.html&psig=AOvVaw2Db5x5CYCucO02NmnaAM1N&ust=1680059884672000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCPDRuPfU_f0CFQAAAAAdAAAAABAE",
+      "image": "https://i.pinimg.com/736x/ee/77/c5/ee77c5249f59c10b724355797e29ccfb.jpg",
       "id": 2
+    },
+    {
+      "name": "HP Laptop",
+      "price": "100000",
+      "category": "laptop",
+      "color": "white",
+      "description": "product ",
+      "image": "https://i.pinimg.com/564x/62/1b/be/621bbe3e4131d20e3bbaeb7868578204.jpg",
+      "id": 3
     }
   ]
 }
