@@ -50,21 +50,21 @@
   ],
   "products": [
     {
-      "name": "samsung m 40",
-      "price": "25000",
+      "name": "samsung m40",
+      "price": "500",
       "category": "mobile",
-      "color": "blue",
-      "description": "a samsung product",
-      "image": "https://i.pinimg.com/564x/6b/45/a5/6b45a5b94271606c1d6f174acf9a87ab.jpg",
+      "color": "black",
+      "description": "mobile product",
+      "image": "https://i.pinimg.com/564x/e2/e3/50/e2e3504b57377999bda2b6e0b6928755.jpg",
       "id": 1
     },
     {
       "name": "Iphone 14",
-      "price": "100000",
+      "price": "1000",
       "category": "mobile",
-      "color": "black",
-      "description": "An apple product",
-      "image": "https://i.pinimg.com/736x/ee/77/c5/ee77c5249f59c10b724355797e29ccfb.jpg",
+      "color": "white",
+      "description": "mobile product",
+      "image": "https://i.pinimg.com/736x/12/60/6a/12606ab807971af87be372d1893af7b8.jpg",
       "id": 2
     }
   ]
