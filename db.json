@@ -66,15 +66,6 @@
       "description": "An apple product",
       "image": "https://i.pinimg.com/736x/ee/77/c5/ee77c5249f59c10b724355797e29ccfb.jpg",
       "id": 2
-    },
-    {
-      "name": "HP Laptop",
-      "price": "100000",
-      "category": "laptop",
-      "color": "white",
-      "description": "product ",
-      "image": "https://i.pinimg.com/564x/62/1b/be/621bbe3e4131d20e3bbaeb7868578204.jpg",
-      "id": 3
     }
   ]
 }
