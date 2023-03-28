@@ -1,3 +1,4 @@
+import { SellerAddProductComponent } from './seller-add-product/seller-add-product.component';
 import { AuthGuard } from './auth.guard';
 import { SellerHomeComponent } from './seller-home/seller-home.component';
 import { SellerAuthComponent } from './seller-auth/seller-auth.component';
@@ -7,17 +8,22 @@ import { RouterModule, Routes } from '@angular/router';
 
 const routes: Routes = [
   {
-    path:'',
-    component:HomeComponent
+    component:HomeComponent,
+    path:''
   },
   {
-    path:'seller-auth',
-    component:SellerAuthComponent
+    component:SellerAuthComponent,
+    path:'seller-auth'
   },
   {
-    path:'seller-home',
     component:SellerHomeComponent,
+    path:'seller-home',
     canActivate: [AuthGuard]
+  },
+  {
+    component:SellerAddProductComponent,
+    path:'seller-add-product',
+    canActivate:[AuthGuard]
   }
 ];
 

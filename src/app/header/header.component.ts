@@ -10,6 +10,7 @@ import { Component, OnInit } from '@angular/core';
 export class HeaderComponent implements OnInit {
 
   menuType: String = 'default';
+  sellerName: String = '';
 
   constructor(private route: Router) {
 
@@ -21,11 +22,21 @@ export class HeaderComponent implements OnInit {
         console.warn(val.url);
         if(localStorage.getItem('seller') && val.url.includes('seller')) {
           this.menuType = "seller";
+
+          let sellerStore = localStorage.getItem('seller');
+          let sellerData = sellerStore && JSON.parse(sellerStore)[0];
+          this.sellerName = sellerData.name;
+          
         } else {
           this.menuType = "default";
         }
       }
     })
+  }
+
+  logout() {
+    localStorage.removeItem('seller');
+    this.route.navigate(['/']);
   }
 
 }
