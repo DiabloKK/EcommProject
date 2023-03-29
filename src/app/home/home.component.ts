@@ -10,6 +10,7 @@ import { ProductService } from '../services/product.service';
 export class HomeComponent implements OnInit {
   
   popularProducts: undefined | product[];
+  trendyProducts: undefined | product[];
 
   constructor(private product: ProductService) {
     
@@ -18,7 +19,11 @@ export class HomeComponent implements OnInit {
   ngOnInit(): void {
       this.product.popularProducts().subscribe((data) => {
         this.popularProducts = data;
-      })
+      });
+
+      this.product.trendyProducts().subscribe((data) => {
+        this.trendyProducts = data;
+      });
   }
 
 }
