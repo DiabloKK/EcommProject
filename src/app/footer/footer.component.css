@@ -1,0 +1,20 @@
+.footer ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li {
+    padding-left: 15px;
+    padding-top: 15px;
+    color: blueviolet;
+    font-size: 20px;
+}
+
+.footer p {
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+}
