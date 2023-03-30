@@ -1,6 +1,8 @@
 import { product } from './../data-type';
 import { Component, OnInit } from '@angular/core';
 import { ProductService } from '../services/product.service';
+// import { NavigationEnd, Router } from '@angular/router';
+// import { filter } from 'rxjs/operators';
 
 @Component({
   selector: 'app-home',
@@ -24,6 +26,12 @@ export class HomeComponent implements OnInit {
       this.product.trendyProducts().subscribe((data) => {
         this.trendyProducts = data;
       });
+
+      // this.router.events.pipe(
+      //   filter(event => event instanceof NavigationEnd)
+      // ).subscribe(() => {
+      //   this.ngOnInit();
+      // });
   }
 
 }
