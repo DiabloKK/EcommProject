@@ -8,6 +8,7 @@ import { SellerAuthComponent } from './seller-auth/seller-auth.component';
 import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { UserAuthComponent } from './user-auth/user-auth.component';
 
 const routes: Routes = [
   {
@@ -40,6 +41,10 @@ const routes: Routes = [
   {
     component:ProductDetailsComponent,
     path:'details/:productId'
+  },
+  {
+    component:UserAuthComponent,
+    path:'user-auth'
   }
 ];
 

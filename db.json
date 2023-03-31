@@ -50,16 +50,7 @@
   ],
   "products": [
     {
-      "name": "samsung m40",
-      "price": "500",
-      "category": "mobile",
-      "color": "black",
-      "description": "mobile product",
-      "image": "https://i.pinimg.com/564x/e2/e3/50/e2e3504b57377999bda2b6e0b6928755.jpg",
-      "id": 1
-    },
-    {
-      "name": "Iphone 14",
+      "name": "Iphone 144",
       "price": "1000",
       "category": "mobile",
       "color": "white",
@@ -96,7 +87,7 @@
     },
     {
       "name": "Gaming PC Build",
-      "price": "180000",
+      "price": "10000",
       "category": "computer",
       "color": "gray",
       "description": "may choi gam",
@@ -112,5 +103,8 @@
       "image": "https://i.pinimg.com/564x/f7/9f/8a/f79f8a888bfb7b7bd1d2383f0ad3c1c0.jpg",
       "id": 7
     }
+  ],
+  "users": [
+
   ]
 }
