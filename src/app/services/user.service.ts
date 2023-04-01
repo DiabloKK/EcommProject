@@ -26,8 +26,8 @@ export class UserService {
     this.http.get<singUp[]>(`http://localhost:3000/users?email=${data.email}&password=${data.password}`, {observe: 'response'})
     .subscribe((result) => {
       if(result && result.body?.length) {
-        this.inValidUserAuth.next(false);
         localStorage.setItem('user', JSON.stringify(result.body[0]));
+        this.inValidUserAuth.next(false);
         this.router.navigate(['/']);
       } else {
         this.inValidUserAuth.next(true);

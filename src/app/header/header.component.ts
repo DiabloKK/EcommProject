@@ -1,7 +1,7 @@
 import { product } from './../data-type';
 import { ProductService } from './../services/product.service';
 import { Router } from '@angular/router';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnChanges, OnInit, SimpleChanges } from '@angular/core';
 
 
 @Component({
@@ -9,12 +9,13 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './header.component.html',
   styleUrls: ['./header.component.css']
 })
-export class HeaderComponent implements OnInit {
+export class HeaderComponent implements OnInit, OnChanges {
 
   menuType: string = 'default';
   sellerName: string = '';
   searchResult: undefined | product[];
   userName: string="";
+  cartItems = 0;
 
   constructor(private route: Router, private product: ProductService) {
 
@@ -42,7 +43,20 @@ export class HeaderComponent implements OnInit {
           this.menuType = "default";
         }
       }
-    })
+    });  
+
+    let cartData = localStorage.getItem('localCart');
+    if(cartData) {
+      this.cartItems = JSON.parse(cartData).length;
+    }
+
+    this.product.cartData.subscribe((items) => {
+      this.cartItems = items.length;
+    });
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+      
   }
 
   logout() {
