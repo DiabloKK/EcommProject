@@ -25,10 +25,12 @@ h1, h5, h6 {
 }
 
 .quantity-group button {
+    border: 1px solid blueviolet;
     padding: 10px;
 }
 
 .quantity-group input {
     width: 50px;
     padding: 10px;
+    border: 1px solid blueviolet;
 }

@@ -4,3 +4,16 @@
     color: blueviolet;
     text-align: center;
 }
+
+.user-auth {
+    margin-bottom: 100px;
+}
+
+.common-form a {
+    color: blueviolet;
+    cursor: pointer;
+}
+
+.common-form p {
+    text-align: left;
+}

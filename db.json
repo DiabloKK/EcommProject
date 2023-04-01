@@ -105,6 +105,17 @@
     }
   ],
   "users": [
-
+    {
+      "name": "DiabloNoir",
+      "email": "khang@gmail.com",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Khang",
+      "email": "jhg@gmail.com",
+      "password": "123454321",
+      "id": 2
+    }
   ]
 }
