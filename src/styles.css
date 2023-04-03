@@ -36,6 +36,7 @@ body {
     border: 1px solid blueviolet;
     color: blueviolet;
     cursor: pointer;
+    padding: 0 10px;
 }
 
 .error-p {
@@ -65,4 +66,8 @@ body {
 
 button:disabled {
     cursor: not-allowed;
+}
+
+.max-width {
+    width: 100%;
 }

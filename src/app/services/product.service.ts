@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { EventEmitter, Injectable } from '@angular/core';
-import { cart, product } from '../data-type';
+import { cart, order, product } from '../data-type';
 
 @Injectable({
   providedIn: 'root'
@@ -73,9 +73,7 @@ export class ProductService {
 
   getCartList(userId: number) {
     return this.http.get<product[]>('http://localhost:3000/carts?userId=' + userId, {observe: 'response'})
-    .subscribe((result) => {
-      console.log(result);
-      
+    .subscribe((result) => {      
       if(result && result.body) {
         this.cartData.emit(result.body);
       }
@@ -83,7 +81,17 @@ export class ProductService {
   }
 
   removeToCart(cartId: number) {
-    return this.http.post('http://localhost:3000/carts/', cartId);
+    return this.http.delete('http://localhost:3000/carts/' + cartId);
+  }
+
+  currentCart() {
+    let userStore = localStorage.getItem('user');
+    let userData = userStore && JSON.parse(userStore);
+    return this.http.get<cart[]>('http://localhost:3000/carts?userId='+userData.id);
+  }
+
+  orderNow(data: order) {
+    return this.http.post('http://localhost:3000/orders', data);
   }
 
 }

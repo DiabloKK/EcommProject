@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { UserAuthComponent } from './user-auth/user-auth.component';
+import { CartPageComponent } from './cart-page/cart-page.component';
+import { CheckoutComponent } from './checkout/checkout.component';
 
 const routes: Routes = [
   {
@@ -45,6 +47,14 @@ const routes: Routes = [
   {
     component:UserAuthComponent,
     path:'user-auth'
+  },
+  {
+    component:CartPageComponent,
+    path:'cart-page'
+  },
+  {
+    component:CheckoutComponent,
+    path:'checkout'
   }
 ];
 

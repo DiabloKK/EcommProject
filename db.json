@@ -120,54 +120,6 @@
   ],
   "carts": [
     {
-      "name": "HP Laptop",
-      "price": "14500",
-      "category": "laptop",
-      "color": "white",
-      "description": "laptop product",
-      "image": "https://i.pinimg.com/564x/62/1b/be/621bbe3e4131d20e3bbaeb7868578204.jpg",
-      "quantity": 3,
-      "userId": 1,
-      "productId": 3,
-      "id": 1
-    },
-    {
-      "name": "Iphone 144",
-      "price": "1000",
-      "category": "mobile",
-      "color": "white",
-      "description": "mobile product",
-      "image": "https://i.pinimg.com/736x/12/60/6a/12606ab807971af87be372d1893af7b8.jpg",
-      "quantity": 1,
-      "productId": 2,
-      "userId": 1,
-      "id": 2
-    },
-    {
-      "name": "MS PC",
-      "price": "25400",
-      "category": "computer",
-      "color": "black",
-      "description": "computer product",
-      "image": "https://i.pinimg.com/564x/85/a5/15/85a51504340319a40f681bb4be84f7f2.jpg",
-      "quantity": 2,
-      "productId": 5,
-      "userId": 1,
-      "id": 3
-    },
-    {
-      "name": "Gaming PC Build",
-      "price": "10000",
-      "category": "computer",
-      "color": "gray",
-      "description": "may choi gam",
-      "image": "https://i.pinimg.com/564x/05/f0/e7/05f0e7b3e80b42e689c08571fe05e9de.jpg",
-      "quantity": 4,
-      "userId": 1,
-      "productId": 6,
-      "id": 4
-    },
-    {
       "name": "Gaming PC Build",
       "price": "10000",
       "category": "computer",
@@ -191,5 +143,8 @@
       "productId": 3,
       "id": 6
     }
+  ],
+  "orders": [
+    
   ]
 }
