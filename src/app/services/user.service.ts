@@ -15,7 +15,6 @@ export class UserService {
   userSignup(user: singUp) {
     this.http.post("http://localhost:3000/users", user, {observe: 'response'}).subscribe((result) => {
       if(result) {
-        console.log(result);
         localStorage.setItem('user', JSON.stringify(result.body));
         this.router.navigate(['/']);
       }

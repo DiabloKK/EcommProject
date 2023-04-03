@@ -30,8 +30,7 @@ export class UserAuthComponent implements OnInit {
     this.user.inValidUserAuth.subscribe((result) => {
       if(result) {
         this.authError = "User not found";
-      } else {
-        console.log(localStorage.getItem('user'));        
+      } else { 
         this.localCartToRemoteCart();
       }
     });

@@ -78,7 +78,7 @@
     },
     {
       "name": "MS PC",
-      "price": "25400",
+      "price": "2500",
       "category": "computer",
       "color": "black",
       "description": "computer product",
@@ -118,33 +118,23 @@
       "id": 2
     }
   ],
-  "carts": [
+  "carts": [],
+  "orders": [
     {
-      "name": "Gaming PC Build",
-      "price": "10000",
-      "category": "computer",
-      "color": "gray",
-      "description": "may choi gam",
-      "image": "https://i.pinimg.com/564x/05/f0/e7/05f0e7b3e80b42e689c08571fe05e9de.jpg",
-      "quantity": 4,
+      "email": "vokhuong1403@gmail.com",
+      "address": "Tx. Hương Thủy",
+      "contact": "0387128521",
+      "totalPrice": 14600,
       "userId": 1,
-      "productId": 6,
-      "id": 5
+      "id": 1
     },
     {
-      "name": "HP Laptop",
-      "price": "14500",
-      "category": "laptop",
-      "color": "white",
-      "description": "laptop product",
-      "image": "https://i.pinimg.com/564x/62/1b/be/621bbe3e4131d20e3bbaeb7868578204.jpg",
-      "quantity": 2,
+      "email": "vokhuong1403@gmail.com",
+      "address": "Tx. Hương Thủy",
+      "contact": "0387128521",
+      "totalPrice": 34100,
       "userId": 1,
-      "productId": 3,
-      "id": 6
+      "id": 4
     }
-  ],
-  "orders": [
-    
   ]
 }
