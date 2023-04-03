@@ -71,4 +71,19 @@ export class ProductService {
     return this.http.post('http://localhost:3000/carts', cartData);
   }
 
+  getCartList(userId: number) {
+    return this.http.get<product[]>('http://localhost:3000/carts?userId=' + userId, {observe: 'response'})
+    .subscribe((result) => {
+      console.log(result);
+      
+      if(result && result.body) {
+        this.cartData.emit(result.body);
+      }
+    })
+  }
+
+  removeToCart(cartId: number) {
+    return this.http.post('http://localhost:3000/carts/', cartId);
+  }
+
 }
